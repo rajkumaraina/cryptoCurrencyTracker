@@ -1,0 +1,25 @@
+.listItem {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 35px;
+}
+@media (max-width: 576px) {
+  .listItem {
+    margin-left: 15px;
+  }
+}
+.coinType {
+  display: flex;
+  align-items: center;
+}
+.para {
+  color: #ffffff;
+  margin: 6px;
+}
+.currencyImg {
+  width: 25px;
+  height: 25px;
+  margin: 6px;
+}

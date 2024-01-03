@@ -1,0 +1,11 @@
+.Maincontainer {
+  background-color: #000000;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .Maincontainer {
+    height: 100vh;
+  }
+}

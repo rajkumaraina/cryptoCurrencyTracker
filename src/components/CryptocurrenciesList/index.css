@@ -1,0 +1,70 @@
+.listContainer {
+  padding: 15px;
+  width: 70%;
+}
+@media (max-width: 576px) {
+  .listContainer {
+    padding: 0;
+    padding-top: 55px;
+    margin-top: 75px;
+    width: 85%;
+  }
+}
+.currencyHeading {
+  color: #00e7ff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.mainImg {
+  width: 100%;
+  height: 250px;
+}
+@media (max-width: 576px) {
+  .mainImg {
+    height: 200px;
+  }
+}
+.unordered {
+  border: 4px solid #00e7ff;
+  border-radius: 8px;
+  padding: 0;
+}
+.listItemFirst {
+  display: flex;
+  justify-content: space-between;
+  background-color: #092e33;
+  align-items: center;
+}
+.listType {
+  width: 125px;
+  margin-left: 35px;
+}
+@media (max-width: 576px) {
+  .listType {
+    margin-left: 15px;
+  }
+}
+.typeName {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 8px;
+}
+@media (max-width: 576px) {
+  .typeName {
+    font-size: 15px;
+  }
+}
+.Values {
+  display: flex;
+}
+.numbers {
+  width: 100px;
+  margin: 10px;
+}
+@media (max-width: 576px) {
+  .numbers {
+    width: 75px;
+  }
+}
